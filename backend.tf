@@ -1,8 +1,8 @@
 terraform {
   backend "remote" {
-  organizations = "jaiswas3-labs"
-  workspace {
-   name = "ws-terraformCloudWork"
+  organization = "jaiswas3-labs"
+  workspaces {
+    name = "ws-terraformCloudWork"
   }
   }
 }
